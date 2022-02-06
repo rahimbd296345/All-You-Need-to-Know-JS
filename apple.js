@@ -1,0 +1,1 @@
+userAnd.name && console.log(`Name is: ${userAnd.name}`);
