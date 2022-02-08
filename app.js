@@ -7,3 +7,5 @@ for (var i = 1; i <= 10; i++){
     }
     console.log(series);
 }
+console.log("Abdur Rahim");
+console.log('www.shatotacorporation.com');
