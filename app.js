@@ -1,9 +1,12 @@
+// Foor Loops
+for (var i = 0; i < 500; i++){
+    console.log('Rokon Razakar');
+}
 
-var Series
-for (var i = 1; i <= 10; i++){
-    series = i + ' = '
-    for (var j = 1; j < 10; j++){
-        series += i * j + ''
-    }
-    console.log(series);
+for (var i = 0; i < 5; i++){
+    console.log('I Love Bangladesh!');
+}
+
+for (var i = 0; i < 10; i++){
+    console.log(i+ 1) + ' Abdur Rahim';
 }
