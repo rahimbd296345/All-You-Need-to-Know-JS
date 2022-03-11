@@ -1,10 +1,35 @@
-// Today is end of coding...
-var Seriesone
-
-for(var i = 1; i <= 10; i++){
-    series = i + ' = '
-    for (var j = 1; j < 10; j++){
-        series += i * j + ' '
+for (var i = 1; i <= 100; i++){
+    if (i % 2 == 1){
+        console.log(i);
     }
-    console.log(series);
+}
+
+for (var i = 1; i <= 100; i++){
+    if(i % 2 == 0){
+        console.log(i);
+    }
+}
+
+for (var i = 1; i <= 100; i++){
+    if(i % 2 == 0){
+        console.log(i);
+    }
+}
+
+var sum = 0
+
+for (var i = 1; i <= 10; i++){
+    console.log(sum + ' + ' + i + ' = ' + (sum+i));
+    sum += i
+}
+
+var sum = 0
+
+for ( var i = 1; i <= 10; i++){
+    console.log(sum + ' + ' + i + ' = ' + (sum+i));
+    sum += i
+}
+
+for(let i = 0, j = 10; i <j, i ++; j--){
+    console.log(i + j);
 }
