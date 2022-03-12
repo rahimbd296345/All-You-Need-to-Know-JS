@@ -106,7 +106,7 @@ if (n == 0) {
 
 // Switch Statement Start Hare...
 
-var date = new Date()
+/*var date = new Date()
 
 var today = date.getDay()
 
@@ -137,6 +137,6 @@ switch (today) {
   default:
     console.log('Not a valid Number...');
     break;
-}
+} */
 
 // Switch Statement End Hare..
