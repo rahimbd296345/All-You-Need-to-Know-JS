@@ -237,7 +237,7 @@ if (!boyfriendIsPaying || isSale) {
 const citizen = age >= 20 ? 'Can vote' : 'Cannot vote'
 console.log(citizen); */
 
-const age = 32
+/* const age = 32
 let citizen
 
 if (age >= 18) {
@@ -245,4 +245,104 @@ if (age >= 18) {
 } else {
   citizen = 'Cannot vote'
 }
-console.log(citizen);
+console.log(citizen); */
+
+// https://www.javascripttutorial.net
+
+/*let age = 18
+if (age >= 18) {
+  console.log('You can sign up');
+}*/
+
+/*let age = 18
+if (age >= 18) {
+  console.log('You can sign up hear...');
+}*/
+
+/*let age = 16
+let state = 'BD'
+
+if (state == 'BD') {
+  if (age >= 16) {
+    console.log('You can drive.');
+  }
+}*/
+
+/*var age = 18
+var state = 'UK'
+
+if (state == 'UK') {
+  if (age >= 18) {
+    console.log('You can drive.');
+  }
+}*/
+
+/* let age = 16
+let state = 'CA'
+
+if (state == 'CA' && age == 16) {
+  console.log('You can drive.');
+} */
+
+/*let age = 18
+
+if (age >= 18) {
+  console.log('You can sign up.');
+} else {
+  console.log('You must be at least 18 to sign up.');
+} */
+
+/*let age = 15
+
+if (age >=20 ) {
+  console.log('You can sign up...');
+} else {
+  console.log('You must be at least 18 to sign up...');
+}*/
+
+/*let month = 17
+let monthName
+
+if (month == 1) {
+  monthName = 'Jan'
+} else if (month == 2) {
+  monthName = 'Feb'
+} else if (month == 3) {
+  monthName = 'Mar'
+} else if (month == 4) {
+  monthName = 'Apr'
+} else if (month == 5) {
+  monthName = 'May'
+} else if (month == 6) {
+  monthName = 'Jun'
+} else if (month == 7) {
+  monthName = 'Jul'
+} else if (month == 8) { 
+  monthName = 'Aug'
+} else if (month == 9) {
+  monthName = 'Sep'
+} else if (month == 10) {
+  monthName = 'Oct'
+} else if (month == 11) {
+  monthName = 'Nov'
+} else if (month == 12) {
+  monthName = 'Dec'
+} else {
+  monthName = 'Invalid month'
+}
+console.log(monthName);*/
+
+let weight = 70 // KG
+let height = 1.72 // Meter
+
+// Calculate the body mass index (BMI)
+
+let bmi = weight / (height * height)
+
+let weightStatus
+
+if (bmi < 18.5) {
+  weightStatus = 'Underweight'
+} else if (bmi >= 18.5 && <= 24.9) {
+  
+}
