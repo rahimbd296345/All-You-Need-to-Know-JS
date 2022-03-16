@@ -332,7 +332,8 @@ if (month == 1) {
 }
 console.log(monthName);*/
 
-let weight = 70 // KG
+/*
+let weight = 90 // KG
 let height = 1.72 // Meter
 
 // Calculate the body mass index (BMI)
@@ -343,6 +344,46 @@ let weightStatus
 
 if (bmi < 18.5) {
   weightStatus = 'Underweight'
-} else if (bmi >= 18.5 && <= 24.9) {
-  
+} else if (bmi >= 18.5 && bmi <= 24.9) {
+  weightStatus = 'Healthy Weight'
+} else if (bmi >= 25 && bmi <= 29.9) {
+  weightStatus = 'Overweight'
+} else {
+  weightStatus = 'Obesity'
 }
+console.log(weightStatus);*/
+
+/*let age = 19
+let message
+
+if (age >= 16) {
+  message = 'You can drive.'
+} else {
+  message = 'You cannot drive.'
+}
+
+console.log(message);*/
+
+/*var age = 18
+let message
+
+age >= 16 ? (message = 'You can drive.') : (message = 'You cannot drive.')
+
+console.log(message);*/
+
+/*let age = 18
+let message
+
+message = age >= 16 ? 'You can drive.' : 'You cannot drive.'
+
+console.log(message); */
+
+/*let authenticated = true
+let nextURL = authenticated ? (console.log('You will redirect to admin area'), '/admin') : (console.log('Access denied'), '/403')
+
+console.log(nextURL);*/
+
+let speed = 90
+let message = speed >= 120 ? 'Too Fast' : speed >= 80 ? 'Fast' : 'OK'
+
+console.log(message);

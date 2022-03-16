@@ -95,7 +95,7 @@ if (!boyfriendIsPaying || isSale) {
 const citizen = age >= 18 ? "Can vote" : "Cannot vote";
 console.log(citizen); */
 
-const age = 32;
+/*const age = 32;
 let citizen;
 
 if (age >= 18) {
@@ -104,7 +104,7 @@ if (age >= 18) {
   citizen = "Cannot vote";
 }
 
-console.log(citizen);
+console.log(citizen); */
 
 // https://www.javascripttutorial.net/javascript-if/
 
@@ -174,6 +174,7 @@ if (month == 1) {
 }
 console.log(monthName);*/
 
+/*
 let weight = 70; // kg
 let height = 1.72; // meter
 
@@ -192,7 +193,58 @@ if (bmi < 18.5) {
   weightStatus = 'Obesity';
 }
 
-console.log(weightStatus);
+console.log(weightStatus); */
+
+/*let age = 18;
+let message;
+
+if (age >= 16) {
+  message = 'You can drive.';
+} else {
+  message = 'You cannot drive.';
+}
+
+console.log(message);*/
+
+/*let age = 18;
+let message;
+
+age >= 16 ? (message = 'You can drive.') : (message = 'You cannot drive.');
+
+console.log(message);*/
+
+/*let age = 18;
+let message;
+
+message = age >= 16 ? 'You can drive.' : 'You cannot drive.';
+
+console.log(message);*/
+
+/*let authenticated = true;
+let nextURL = authenticated
+  ? (alert('You will redirect to admin area'), '/admin')
+  : (alert('Access denied'), '/403');
+
+// redirect to nextURL here
+console.log(nextURL);*/ // '/admin'
+
+let speed = 90;
+let message = speed >= 120 ? 'Too Fast' : speed >= 80 ? 'Fast' : 'OK';
+
+console.log(message);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
