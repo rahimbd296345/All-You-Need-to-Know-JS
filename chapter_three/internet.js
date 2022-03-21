@@ -1,4 +1,4 @@
-/*//var a = 10;
+/*var a = 10;
 var b = 20;
 
 if (a > b) {
@@ -387,3 +387,194 @@ console.log(nextURL);*/
 let message = speed >= 120 ? "Too Fast" : speed >= 80 ? "Fast" : "OK";
 
 console.log(message);*/
+
+/*var now = new Date()
+
+var dayOfWeek = now.getDay()
+
+if (dayOfWeek == 3) {
+    console.log('Have a nice weekend!');
+} */
+
+/*var now = new Date()
+var dayOfWeek = now.getDay()
+
+if (dayOfWeek == 5) {
+    console.log('Have a nice weekend!');
+} else {
+    console.log('Have a nice day!');
+}*/
+
+/*var now = new Date()
+var dayOfWeek = now.getDay()
+
+if (dayOfWeek == 5) {
+    console.log('Have a nice weekend!');
+} else if (dayOfWeek == 2) {
+    console.log('Have a nice Sunday!');
+} else {
+    console.log('Have a nice day!');
+}*/
+
+/*var userType
+var age = 21
+if (age < 15) {
+    userType = 'Child'
+} else {
+    userType = 'Adult'
+}
+console.log(userType);*/
+
+/*var age = 21
+
+var userType = age < 18 ? 'Child' : 'Adult'
+console.log(userType);*/
+
+
+// https://js.zonayed.me
+
+if (3 < 5) {
+  console.log("Yeah I will be exceute!");
+}
+
+var myName = "Abdur Rahim";
+
+if (myName === "Abdur Rahim") {
+  console.log("You are allowed!");
+}
+
+var myAge = 20;
+
+if (9 > 10) {
+  console.log("Greater");
+}
+if (myAge >= 20) {
+  console.log("You are adult");
+}
+
+if (myAge < 20) {
+  console.log("You are not Adult!");
+}
+
+var myAge = 20;
+
+if (myAge > 20 && myAge < 60) {
+  console.log("You are a young person");
+}
+
+var age = 21;
+
+if (age > 18) {
+  console.log("Now your are adult");
+} else {
+  console.log("No You are not aged enough to be a adult!");
+}
+
+// JavaScript Code will go here...
+
+var whatDate = "Sunday";
+
+if (whatDate === "Friday") {
+  console.log("It is closed today");
+} else if (whatDate === "Thursday") {
+  console.log("It is partially closed");
+} else if (whatDate === "Saturday") {
+  console.log("Some offices afe closed");
+} else {
+  console.log("It is normal working day!");
+}
+
+var whatDate = "Friday";
+
+if (whatDate === "Friday") {
+  console.log("It is closed today");
+} else if (whatDate === "Thursday") {
+  console.log("It is partilly close");
+} else if (whatDate === "Saturday") {
+  console.log("Some offices are closed");
+} else {
+  console.log("It is normal working day!");
+}
+
+var num = 10;
+
+if (num > 1) {
+  if (num > 10) {
+    console.log("Greater than 10");
+  } else {
+    console.log("Somewhere between 2 - 10");
+  }
+}
+
+var age = 23;
+
+if (age > 18) {
+  if (age > 30) {
+    console.log("You are a complete man!");
+  } else if (age > 60) {
+    console.log("You are Old Man!");
+  } else {
+    console.log("You are Young Man!");
+  }
+} else {
+  console.log("You are a Child!");
+}
+
+var weekDay = "Sunday";
+
+switch (weekDay) {
+  case "Saturday":
+    console.log("Saturday!, Today is closed");
+    break;
+  case "Sunday":
+    console.log("It is Sunday, normal working day");
+    break;
+  case "Monday":
+    console.log("It is Monday, normal working day");
+    break;
+  case "Tuesday":
+    console.log("It is Tuesday, normal working day!");
+    break;
+  case "Wednesday":
+    console.log("It is Wednesday, normal working day");
+    break;
+  case "Thursday":
+    console.log("It is Thursday, normal working day");
+    break;
+  case "Friday":
+    console.log("Friday!, It is closed today");
+    break;
+  default:
+    console.log("Not a day");
+}
+
+var rollNo = 1;
+
+switch (rollNo) {
+  case 1:
+    console.log("Abdur Rahim");
+    break;
+  case 2:
+    console.log("Sagar");
+    break;
+  case 3:
+    console.log("Niraj");
+    break;
+  case 4:
+    console.log("Rahat");
+    break;
+  case 5:
+    console.log("Amit");
+    break;
+  case 6:
+    console.log("Yadav");
+    break;
+  case 7:
+    console.log("Mahen");
+    break;
+  case 8:
+    console.log("Suraj");
+    break;
+  default:
+    console.log("Others");
+}
