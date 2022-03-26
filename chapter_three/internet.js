@@ -472,14 +472,14 @@ if (age > 18) {
 
 // JavaScript Code will go here...
 
-var whatDate = "Sunday";
+/*var whatDate = "Sunday";
 
 if (whatDate === "Friday") {
   console.log("It is closed today");
 } else if (whatDate === "Thursday") {
   console.log("It is partially closed");
 } else if (whatDate === "Saturday") {
-  console.log("Some offices afe closed");
+  console.log("Some offices are closed");
 } else {
   console.log("It is normal working day!");
 }
@@ -577,4 +577,4 @@ switch (rollNo) {
     break;
   default:
     console.log("Others");
-}
+} */
