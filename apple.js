@@ -1,4 +1,12 @@
-const numbers = [23,55,21,87,56];
-let maxValue = Math.max(...numbers);
+class Car {
+    constructor(name, year) {
+        this.name = name;
+        this.year = year;
+    }
+}
 
-document.getElementById("demo").innerHTML = maxValue;
+const myCar1 = new Car("Ford", 2014);
+const myCar2 = new Car("Audi", 2019);
+
+document.getElementById("demo").innerHTML =
+    myCar1.name + " " + myCar2.name;

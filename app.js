@@ -1,5 +1,12 @@
-const numbers = [23, 55, 21, 87, 56];
+class Car {
+    constructor(name, year) {
+        this.name = name
+        this.year = year
+    }
+}
 
-let maxValue = Math.max(...numbers)
+const myCar1 = new Car('Ford', 2014)
+const myCar2 = new Car('Audi', 2019)
 
-console.log(maxValue)
+console.log(myCar1.name)
+console.log(myCar2.name)
